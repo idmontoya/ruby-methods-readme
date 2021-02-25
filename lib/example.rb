@@ -1,5 +1,5 @@
 # Use this space to code along with the readme
-phrase = "Hello There!"
+phrase = "Hello World!"
 puts phrase
 puts phrase
 puts phrase
@@ -25,8 +25,8 @@ puts phrase
 puts phrase
 puts phrase
 
-def say_hello_there_ten_times
-    phrase = "Hello There!"
+def say_hello_world_ten_times
+    phrase = "Hello World!"
     puts phrase
     puts phrase
     puts phrase
@@ -38,8 +38,8 @@ def say_hello_there_ten_times
     puts phrase
     puts phrase
 end
-def say_hello_there_ten_times
-    phrase = "Hello There!"
+def say_hello_world_ten_times
+    phrase = "Hello World!"
     puts phrase
     puts phrase
     puts phrase
@@ -52,32 +52,32 @@ def say_hello_there_ten_times
     puts phrase
     puts phrase
 end 
-say_hello_there_ten_times
+say_hello_world_ten_times
 
 # ... The rest of the program
 
-say_hello_there_ten_times
+say_hello_world_ten_times
 
 def greeting # Method Signature
-    puts "Hello There" # Method Body
+    puts "Hello World" # Method Body
 end # Method Closing
 def greeting
     # Leave a line break for the method body
 end # Immediately close the method.
 
 def greeting
-    puts "Hello There" # Now code the body of the method.
+    puts "Hello World" # Now code the body of the method.
 end
 
 def greeting
-    puts "Hello There"
+    puts "Hello World"
 end
 
 greeting # Executing the method by name
-#=> "Hello There"
+#=> "Hello Wolrd"
 
 greeting # Executing the method again
-#=> "Hello There"
+#=> "Hello World"
 
 phrase = "Hello World!"
 puts phrase
